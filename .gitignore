@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+salidas/
+*.pyc
+nltk_data/
+.DS_Store
