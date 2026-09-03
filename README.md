@@ -21,3 +21,18 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/lab6.ipynb
 El notebook lee los dos CSV de la carpeta data/ y escribe los conjuntos procesados en
 `salidas/` (no versionada). Los comentarios están en español, por lo que la
 limpieza usa stopwords en español y lematización con spaCy.
+
+## Contenido del notebook
+
+1. Carga, comprensión e integración de los datos por `video_id`.
+2. Calidad, limpieza y preprocesamiento, con `texto_original` y `texto_limpio`.
+3. Análisis exploratorio: descriptivos, concentración de la participación, popularidad
+   frente a participación, visualizaciones y respuestas a las preguntas del enunciado.
+4. Red bipartita autor-video: construcción, tablas de nodos y aristas, y visualización
+   de la red completa.
+
+## Salidas generadas
+
+El notebook escribe en `salidas/` (carpeta no versionada) los conjuntos procesados
+`videos_procesado.csv`, `comentarios_procesado.csv` e `integrado.csv`, y las tablas de la
+red `red_nodos.csv` y `red_aristas.csv`.
