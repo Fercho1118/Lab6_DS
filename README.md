@@ -30,9 +30,17 @@ limpieza usa stopwords en español y lematización con spaCy.
    frente a participación, visualizaciones y respuestas a las preguntas del enunciado.
 4. Red bipartita autor-video: construcción, tablas de nodos y aristas, y visualización
    de la red completa.
+5. Proyecciones autor-autor y video-video, con sus pesos, comparación y visualizaciones.
+6. Topología y fragmentación: densidad, distribución de grados, componentes, cohesión y
+   transitividad de las tres redes.
+7. Comunidades (sección a cargo de Fernando Rueda).
+8. Nodos centrales y participantes puente: centralidades, autores puente y videos
+   articuladores.
 
 ## Salidas generadas
 
 El notebook escribe en `salidas/` (carpeta no versionada) los conjuntos procesados
 `videos_procesado.csv`, `comentarios_procesado.csv` e `integrado.csv`, y las tablas de la
-red `red_nodos.csv` y `red_aristas.csv`.
+red `red_nodos.csv` y `red_aristas.csv`, las proyecciones
+`proyeccion_autor_autor.csv` y `proyeccion_video_video.csv`, y las medidas de centralidad
+en `centralidad.csv`.
